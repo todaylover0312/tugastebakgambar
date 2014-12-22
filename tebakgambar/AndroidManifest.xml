@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tugas.tebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DewiActivity"
+            android:label="@string/title_activity_dewi" >
+        </activity>
+        <activity
+            android:name=".GoyangActivity"
+            android:label="@string/title_activity_goyang" >
+        </activity>
+        <activity
+            android:name=".IkanActivity"
+            android:label="@string/title_activity_ikan" >
+        </activity>
+        <activity
+            android:name=".KejarActivity"
+            android:label="@string/title_activity_kejar" >
+        </activity>
+        <activity
+            android:name=".KerisActivity"
+            android:label="@string/title_activity_keris" >
+        </activity>
+        <activity
+            android:name=".LuarActivity"
+            android:label="@string/title_activity_luar" >
+        </activity>
+        <activity
+            android:name=".PedagangActivity"
+            android:label="@string/title_activity_pedagang" >
+        </activity>
+        <activity
+            android:name=".PolisiActivity"
+            android:label="@string/title_activity_polisi" >
+        </activity>
+        <activity
+            android:name=".TopengActivity"
+            android:label="@string/title_activity_topeng" >
+        </activity>
+        <activity
+            android:name=".BerhasilActivity"
+            android:label="@string/title_activity_berhasil" >
+        </activity>
+    </application>
+
+</manifest>
